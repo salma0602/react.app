@@ -1,6 +1,6 @@
 
 apiVersion: apps/v1
-kind: Deployment
+kind: deployment
 metadata:
   name: react-app-deployment
 spec:
@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: DOCKER_USERNAME/react-app:latest
+        image: salma9345801442/react-app:latest
         ports:
         - containerPort: 80
