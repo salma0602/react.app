@@ -34,5 +34,5 @@ jobs:
         username: ${{ secrets.REMOTE_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          kubectl apply -f /path/to/k8s-deployment.yaml
+          kubectl apply -f /path/to/deployment.yaml
 
